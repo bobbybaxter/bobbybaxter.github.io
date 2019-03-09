@@ -11,43 +11,54 @@
 
 <body>
   <!-- Navigation -->
-  <nav>
-    <h1>Bob Baxter</h1>
-    <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
-    </ul>
-  </nav>
+  <div class="column" id="left">
+    <div class="top-left">
+      <h1 class="top-left">Bob Baxter</h1>
+    </div>
+    <nav class="bottom">
+      <ul id="navLinks">
+        <li><a id="navToBio">Bio</a></li>
+        <li><a id="navToTechnologies">Technologies</a></li>
+        <li><a id="navToProjects">Projects</a></li>
+      </ul>
+    </nav>
+  </div>
   <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <p>Prior military</p>
-    <p>Department of Veterans Affairs</p>
-    <p>I want to go into development because...</p>
-    <p>What I love about development...</p>
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-  </div>
-  <div class="fullPage" id="technologiesPage">
-    <ul>Technologies</ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>Git</li>
-      <li>Github</li>
-    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-  </div>
-  <div class="fullPage" id="projectsPage"></div>
-  <!-- End Primary View -->
+  <div class="column" id="right">
+    <div class="top-right">
+      <p></p>
+    </div>
+    <div class="bottom">
+      <div class="fullPage" id="bioPage">
+        <p>Prior military</p>
+        <p>Department of Veterans Affairs</p>
+        <p>I want to go into development because...</p>
+        <p>What I love about development...</p>
+        <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+      </div>
+      <div class="fullPage" id="technologiesPage">
+        <ul>Technologies</ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Git</li>
+          <li>Github</li>
+        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+      </div>
+      <div class="fullPage" id="projectsPage"></div>
+      <!-- End Primary View -->
 
-  <!-- Footer -->
-  <footer class="page-footer">
-    <p>email: bob.e.baxter@gmail.com</p>
-    <p><a href="https://www.linkedin.com/in/bob-e-baxter/">LinkedIn</a></p>
-    <p><a href="https://github.com/bobbybaxter/">Github</a></p>
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-  </footer>
+      <!-- Footer -->
+      <footer class="page-footer">
+        <p>email: bob.e.baxter@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/bob-e-baxter/">LinkedIn</a></p>
+        <p><a href="https://github.com/bobbybaxter/">Github</a></p>
+        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
+      </footer>
+    </div>
+  </div>
   <!-- End Footer -->
   <script src="projects.js"></script>
 </body>
