@@ -5,61 +5,164 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bob Baxter</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom Fonts -->
+  <link href="/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- My Custom CSS -->
   <link rel="stylesheet" href="./main.css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway" rel="stylesheet">
 </head>
 
-<body>
+<body id="page-top">
+
   <!-- Navigation -->
-  <div class="column" id="left">
-    <div class="top-left">
-      <h1 class="top-left">Bob Baxter</h1>
-    </div>
-    <nav class="bottom">
-      <ul id="navLinks">
-        <li><a id="navToBio">Bio</a></li>
-        <li><a id="navToTechnologies">Technologies</a></li>
-        <li><a id="navToProjects">Projects</a></li>
-      </ul>
-    </nav>
-  </div>
+  <!-- <a class="menu-toggle rounded" href='#'>
+    <i class="fas fa-bars"></i>
+  </a> -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <ul class="container ml-auto">
+      <li class="nav-item">
+        <a href="#page-top">Home</a>
+      </li>
+      <li class="nav-item">
+        <a href="#bioPage" id="navToBio">Bio</a>
+      </li>
+      <li class="nav-item">
+        <a href="#technologiesPage" id="navToTechnologies">Technologies</a>
+      </li>
+      <li class="nav-item">
+        <a href="#projects" id="navToProjects">Projects</a>
+      </li>
+    </ul>
+  </nav>
   <!-- End Navigation -->
 
-  <!-- Primary View -->
-  <div class="column" id="right">
-    <div class="top-right">
-      <p></p>
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1">Bob Baxter</h1>
+      <h3 class="mb-5">
+        <em>Web Developer</em>
+      </h3>
+      <!-- <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Bio</a> -->
     </div>
-    <div class="bottom">
-      <div class="fullPage" id="bioPage">
-        <p>Prior military</p>
-        <p>Department of Veterans Affairs</p>
-        <p>I want to go into development because...</p>
-        <p>What I love about development...</p>
-        <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-      </div>
-      <div class="fullPage" id="technologiesPage">
-        <ul>Technologies</ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>Git</li>
-          <li>Github</li>
-        <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-      </div>
-      <div class="fullPage" id="projectsPage"></div>
-      <!-- End Primary View -->
+    <!-- <div class="overlay"></div> --> 
+  </header>
 
-      <!-- Footer -->
-      <footer class="page-footer">
-        <p>email: bob.e.baxter@gmail.com</p>
-        <p><a href="https://www.linkedin.com/in/bob-e-baxter/">LinkedIn</a></p>
-        <p><a href="https://github.com/bobbybaxter/">Github</a></p>
-        <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
-      </footer>
+  <!-- Primary View -->
+  <!-- About -->
+  <section class="content-section bg-light fullPage" id="bioPage">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-10 mx-auto">
+          <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+          <p>Prior military</p>
+          <p>Department of Veterans Affairs</p>
+          <p>I want to go into development because I enjoy solving problems.</p>
+          <p>I love development because it merges creativity with practicality.</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Technologies -->
+  <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
+  <section class="text-white text-center" id="technologiesPage">
+    <div class="text-center technologiesPage">
+      <div class="content-section-heading">
+        <!-- <h3 class="text-secondary mb-0">Technologies</h3> -->
+        <h2 class="mx-auto mb-5">Technologies</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="tech-icon rounded-circle mx-auto mb-3">
+            <i class="icon-screen-desktop"></i>
+          </span>
+          <h4>
+            <strong>HTML</strong>
+          </h4>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="tech-icon rounded-circle mx-auto mb-3">
+              <i class="icon-grid"></i>
+            </span>
+            <h4>
+              <strong>CSS</strong>
+            </h4>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="tech-icon rounded-circle mx-auto mb-3">
+              <i class="icon-rocket"></i>
+            </span>
+            <h4>
+              <strong>Javascript</strong>
+            </h4>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="tech-icon rounded-circle mx-auto mb-3">
+              <i class="icon-social-github"></i>
+            </span>
+            <h4>
+              <strong>Github</strong>
+            </h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Portfolio/Projects -->
+  <section class="content-section bg-light" id="projects">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">Recent Projects</h2>
+      </div>
+      <div class="row no-gutters" id="projectsPage">
+
+      </div>
+    </div>
+  </section>
+    <!-- End Primary View -->
+
+    <!-- Footer -->
+  <footer class="page-footer text-center">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle mr-3" href="mailto:bob.e.baxter@gmail.com">
+            <i class="icon-envelope"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle mr-3" href="https://www.linkedin.com/in/bob-e-baxter/">
+            <i class="icon-social-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle mr-3" href="https://github.com/bobbybaxter/">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-white small mb-0">Copyright &copy; Bob Baxter 2019</p>
+    </div>
+  </footer>
   <!-- End Footer -->
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="jquery/jquery.min.js"></script> -->
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
   <script src="projects.js"></script>
+
 </body>
 </html>
