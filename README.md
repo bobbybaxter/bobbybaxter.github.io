@@ -2,7 +2,7 @@
 One-page locally hosted site to work on my Personal Bio Site.
 
 ## Screenshots
-![image of personal bio website](https://raw.githubusercontent.com/bobbybaxter/personal-bio-site/master/images/personal-bio-site.png)
+![image of personal bio website](https://raw.githubusercontent.com/bobbybaxter/personal-bio-site/master/images/personal-bio-site-screenshot.png)
 
 ## Getting Started
 Clone the repo:
@@ -28,6 +28,7 @@ In your web browser, copy and paste this:
 
 ## Known Issues
 - Hover animation on project items still shows image on right side, in part based on `.img-fluid`'s `max-width: initial`
+- Scrolling to the right shows the blue background
 
 ## Working Notes
 - 03/11/19 - Played around with my styling, based on the [Stylish Portfolio](https://startbootstrap.com/previews/stylish-portfolio/) Bootstrap template as a stretch goal from the base assignment.
