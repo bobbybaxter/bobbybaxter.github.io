@@ -1,3 +1,43 @@
+const outputEl = document.getElementById("output-target")
+const navItem = document.getElementsByClassName('nav-item');
+const bioPage = document.getElementById('bioPage');
+const techPage = document.getElementById('technologiesPage');
+const projectsPage = document.getElementById('projectsPage');
+
+const pageLoad = () => {
+  toggleVisibility(techPage, 'd-none');
+  toggleVisibility(projectsPage, 'd-none');
+}
+
+const toggleVisibility = (element, newClass) => {
+  element.classList.toggle(newClass);
+  console.log('element.classList', element.classList);
+};
+
+const handlePageClick = (e) => {
+  const navId = e.target.id;
+  if (navId === 'navToBio') {
+    bioPage.classList.remove('d-none')
+    techPage.classList.add('d-none')
+    projectsPage.classList.add('d-none')
+  } else if (navId === 'navToTechnologies') {
+    bioPage.classList.add('d-none')
+    techPage.classList.remove('d-none')
+    projectsPage.classList.add('d-none')
+  } else if (navId === 'navToProjects') {
+    bioPage.classList.add('d-none')
+    techPage.classList.add('d-none')
+    projectsPage.classList.remove('d-none')
+  };
+};
+
+const eventListeners = () => {
+  for (let i = 0; i < navItem.length; i++) {
+    navItem[i].addEventListener('click', handlePageClick);
+  };
+};
+
+/* PROJECTS */
 const printToDom = (divId, textToPrint) => {
   selectedDiv = document.getElementById(divId);
   selectedDiv.innerHTML = textToPrint;
@@ -70,20 +110,14 @@ const createProjectCards = () => {
       domString +=   `</span>`;
       domString +=   `<img class="img-fluid" src="${projects[i].screenshot}" alt="${projects[i].description}">`;
       domString += `</div>`;
-      // domString += `<div class="card">`;
-      // domString +=   `<h3 class="project-title">${projects[i].title}</h3>`;
-      // domString +=   `<img src="${projects[i].screenshot}"></img>`;
-      // domString +=   `<p class="description">${projects[i].description}</p>`;
-      // domString +=   `<p>${projects[i].technologiesUsed}</p>`;
-      // domString +=   `<p><a href="${projects[i].url}">Preview</a></p>`;
-      // domString +=   `<p><a href="${projects[i].githubUrl}">Github</a></p>`;
-      // domString += `</div>`;
     };
   };
-  printToDom('projectsPage', domString);
+  printToDom('projects', domString);
 };
 
 const init = () => {
+  pageLoad();
+  eventListeners();
   createProjectCards();
 };
 
