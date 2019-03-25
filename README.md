@@ -31,6 +31,13 @@ In your web browser, copy and paste this:
 - Scrolling to the right shows the blue background
 
 ## Working Notes
+- 03/24/19 - Updated Navbar functionality based on assignment
+  - added `eventListeners` function that iterates through all elements with `nav-item`, then runs `handlePageClick` upon click event.
+  - `handlePageClick` determines which page corresponds to the navbar item that was clicked and displays that page, while also hiding the other pages.  i know there has to be a more eloquent way to loop through the pages and cut my code down a bit, but i needed to make sure i got it functioning before refactoring.
+  - the `pageLoad` function hides the pages i don't want showing when the page first loads.
+  - at the end, my `init` function runs `pageLoad()`, `eventListeners()`, then `createProjectCards()`
+  - added the template CSS file and cleaned my customized CSS file of duplicates. *when i first styled the page, i didn't know that you should link the template .css file then your customized CSS file afterwards in `index.html`. i rewrote the pieces that i thought i needed.  woof.*
+  - cleaned up JS file of commented out scraps of code that were obsolete
 - 03/11/19 - Played around with my styling, based on the [Stylish Portfolio](https://startbootstrap.com/previews/stylish-portfolio/) Bootstrap template as a stretch goal from the base assignment.
   - changed the layout based on the requirements of my assignment
   - found new background and portfolio/project images, and changed the technologies icons
