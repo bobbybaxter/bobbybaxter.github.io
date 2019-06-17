@@ -2,7 +2,7 @@
 One-page locally hosted site to work on my Personal Bio Site.
 
 ## Screenshots
-![image of personal bio website](https://raw.githubusercontent.com/bobbybaxter/personal-bio-site/master/images/personal-bio-site-screenshot.png)
+![image of personal bio website](https://raw.githubusercontent.com/bobbybaxter/personal-bio-site/master/src/assets/images/personal-bio-site-screenshot.png)
 
 ## Installation Instructions
 - Clone down this repo
