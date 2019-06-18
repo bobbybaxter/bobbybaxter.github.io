@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "deploy-gh-pages": "git subtree push --prefix build origin gh-pages"
   },
   "repository": {
     "type": "git",
