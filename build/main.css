@@ -11418,6 +11418,26 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+/* Tooltip */
+.tooltip > .tooltip-inner {
+  background-color: #061c50; }
+
+/* Tooltip on top */
+.tooltip.top > .tooltip-arrow {
+  border-top: 5px solid #4A90E2; }
+
+/* Tooltip on bottom */
+.tooltip.bottom > .tooltip-arrow {
+  border-bottom: 5px solid #4A90E2; }
+
+/* Tooltip on left */
+.tooltip.left > .tooltip-arrow {
+  border-left: 5px solid #4A90E2; }
+
+/* Tooltip on right */
+.tooltip.right > .tooltip-arrow {
+  border-right: 5px solid #4A90E2; }
+
 /* https://newtodesing.com/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -11525,14 +11545,22 @@ h1.name {
   color: #81899C;
   margin-top: 10px; }
 
+span.under-title {
+  padding-left: 3px; }
+
 .lead {
   font-size: 44px;
   font-weight: 300;
   margin-top: 60px;
   line-height: 55px; }
 
+.under-lead {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 10px; }
+
 #headshot-img {
-  background-image: url("/src/assets/images/draft_headshot.jpg"); }
+  background-image: url(d5363f3df98567688b4038a363569128.jpg); }
 
 .circle-crop {
   width: 200px;
@@ -11740,7 +11768,8 @@ ol::after {
 
 .exp-li {
   font-size: .9rem;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-weight: 300; }
 
 .exp-sub-heading {
   font-size: 1rem;

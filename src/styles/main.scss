@@ -1,5 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
 @import '~@fortawesome/fontawesome-free/css/all.css';
+@import '../javascripts/components/interests/interests.scss';
+
+$bg-img: url('../assets/images/draft_headshot.jpg');
 
 /* https://newtodesing.com/ 
    v2.0 | 20110126
@@ -133,6 +136,10 @@ h1.name {
 	margin-top: 10px;
 }
 
+span.under-title {
+	padding-left: 3px;
+}
+
 .lead {
 	font-size: 44px;
 	font-weight: 300;
@@ -140,8 +147,15 @@ h1.name {
 	line-height: 55px;
 }
 
+.under-lead {
+	font-size: 18px;
+	font-weight: 300;
+	// margin-left: 40px;
+	margin-top: 10px;
+}
+
 #headshot-img {
-	background-image: url('/src/assets/images/draft_headshot.jpg');
+	background-image: $bg-img;
 }
 
 .circle-crop {
@@ -319,78 +333,6 @@ ol::after {
 	border-left: 20px solid #31708F;
   	border-radius: 3px;
 }
-
-// /* ---- Timeline elements ---- */
-// li {
-// 	position: relative;
-// 	// display: inline-block;
-// 	// float: left;
-// 	width: 25%;
-//   height: 50px;
-// }
-// li .line {
-//   position: absolute;
-//   top: -47px;
-//   left: 1%;
-//   font-size: 20px;
-//   font-weight: 600;
-//   color: #04143A;
-// }
-// li .point {
-// 	content: "";
-// 	top: -7px;
-// 	left: 0%;
-// 	display: block;
-// 	width: 8px;
-// 	height: 8px;
-// 	border: 4px solid #fff;
-// 	border-radius: 10px;
-// 	background: #4A90E2;
-//   position: absolute;
-// }
-// li .description {
-//   display: none;
-//   padding: 10px 0;
-//   margin-top: 20px;
-//   position: relative;
-//   font-weight: normal;
-//   z-index: 1;
-//   max-width: 95%;
-//   font-size: 18px;
-//   font-weight: 600;
-//   line-height: 25px;
-//   color: #5B6A9A;
-// }
-// .description::before {
-//   content: '';
-//   width: 0; 
-//   height: 0; 
-//   border-left: 5px solid transparent;
-//   border-right: 5px solid transparent;
-//   border-bottom: 5px solid #f4f4f4;
-//   position: absolute;
-//   top: -5px;
-//   left: 43%;
-// }
-
-
-// .timeline .date{
-// 	font-size: 14px;
-// 	color: #81899C;
-// 	font-weight: 300;
-// }
-
-// /* ---- Hover effects ---- */
-// li:hover {
-//   color: #48A4D2;
-// }
-// li .description {
-//   display: block;
-// }
-
-// /*timeline ends*/
-
-
 
 /* Media queries*/
 

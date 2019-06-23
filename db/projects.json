@@ -1,0 +1,38 @@
+{
+	"project1": {
+		"title": "SWGOH Counters List",
+		"subtitle": "Front-End Capstone",
+		"description": "An iOS game companion built with React, utilizing Firebase for database CRUD implementation.",
+		"demoUrl": "",
+		"gitUrl": "",
+		"imageUrl": "",
+		"shouldPrint": false
+	},
+	"project2": {
+		"title": "Cashew Outside",
+		"subtitle": "Firebase CRUD Group Project",
+		"description": "A dashboard that a user can use to keep track of news articles, messages, events, and a diary.",
+		"demoUrl": "https://nutshell-cashew.firebaseapp.com/",
+		"gitUrl": "https://github.com/bobbybaxter/nutshell-cashew",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
+	"project3": {
+		"title": "Arnold Flix",
+		"subtitle": "Firebase CRUD Project",
+		"description": "A page that allows users to keep track of all of their favorite Arnold Schwarzenegger movies. <br><br> Features include adding, editing, deleting, rating, and adding to a Watchlist.",
+		"demoUrl": "https://movie-history-134c2.firebaseapp.com/",
+		"gitUrl": "https://github.com/bobbybaxter/movie-history",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
+	"project4": {
+		"title": "Fling's Landing",
+		"subtitle": "Group Messaging App Project",
+		"description": "A Game of Thrones themed messaging app.",
+		"demoUrl": "https://flings-landing.firebaseapp.com/",
+		"gitUrl": "https://github.com/bobbybaxter/chatty-baratheon",
+		"imageUrl": "",
+		"shouldPrint": true
+	}
+}

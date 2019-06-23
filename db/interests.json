@@ -1,0 +1,162 @@
+{
+  "interest1": {
+    "title": "SCSS",
+    "interestUrl": "",
+    "description": "sass/scss is so freakin' convenient.  mixins and nesting for the win <3"
+  },
+  "interest2": {
+    "title": "javascript",
+    "interestUrl": "https://github.com/bobbybaxter",
+    "description": "i'm a forever student of javascript.  click to check out my projects on github to see how far i've come."
+  },
+  "interest3": {
+    "title": "webpack",
+    "interestUrl": "",
+    "description": "i use webpack as a task runner and bundler in my development work."
+  },
+  "interest4": {
+    "title": "bootstrap",
+    "interestUrl": "",
+    "description": "i use the bootstrap framework to style my apps, and i'm constantly finding new classes to speed up my styling work."
+  },
+  "interest5": {
+    "title": "firebase",
+    "interestUrl": "",
+    "description": "i use firebase as a quick database solution for my apps."
+  },
+  "interest6": {
+    "title": "CSS",
+    "interestUrl": "",
+    "description": "when styling frameworks don't cut it, i like to get down and dirty with some vanilla CSS."
+  },
+  "interest7": {
+    "title": "git",
+    "interestUrl": "",
+    "description": "i use git for version control... it's like having a safety net for an entire project."
+  },
+  "interest8": {
+    "title": "github",
+    "interestUrl": "https://github.com/bobbybaxter",
+    "description": "click to see all of my development work!"
+  },
+  "interest9": {
+    "title": "HTML",
+    "interestUrl": "",
+    "description": "it's the foundation of web development, so it's a must know."
+  },
+  "interest10": {
+    "title": "APIs",
+    "interestUrl": "",
+    "description": "lately i've been interested in the Sheetsu API to use Google Sheets as a backend.  i think i'm going to dive into the Star Wars API soon."
+  },
+  "interest11": {
+    "title": "guitar",
+    "interestUrl": "https://deliciousdeath.bandcamp.com/",
+    "description": "click to check out my latest project, Delicious Death!"
+  },
+  "interest12": {
+    "title": "drums",
+    "interestUrl": "https://deliciousdeath.bandcamp.com/",
+    "description": "click to check out my latest project, Delicious Death!"
+  },
+  "interest13": {
+    "title": "songwriting",
+    "interestUrl": "https://deliciousdeath.bandcamp.com/",
+    "description": "click to check out my latest project, Delicious Death!"
+  },
+  "interest14": {
+    "title": "odd time signatures",
+    "interestUrl": "https://deliciousdeath.bandcamp.com/",
+    "description": "click to check out my latest project, Delicious Death!"
+  },
+  "interest15": {
+    "title": "adobe photoshop",
+    "interestUrl": "",
+    "description": "ok, i'll admit it... i've used Photoshop since the Myspace days."
+  },
+  "interest16": {
+    "title": "adobe illustrator",
+    "interestUrl": "",
+    "description": "ok, i'll admit it... i've used Illustrator since the Myspace days."
+  },
+  "interest17": {
+    "title": "logic pro",
+    "interestUrl": "https://deliciousdeath.bandcamp.com/",
+    "description": "i've used logic pro to record and edit music for over 10 years."
+  },
+  "interest18": {
+    "title": "vs code",
+    "interestUrl": "",
+    "description": "my choice for an IDE."
+  },
+  "interest19": {
+    "title": "rowing",
+    "interestUrl": "",
+    "description": "i enjoy rowing, but only on an erg... i'm just not a confident enough swimmer to really row."
+  },
+  "interest20": {
+    "title": "nutrition",
+    "interestUrl": "",
+    "description": "i got my minor in college in nutrition and food science.  my intense love of junk food needed this sort of counterbalance."
+  },
+  "interest21": {
+    "title": "cooking",
+    "interestUrl": "",
+    "description": "at the moment i'm working my way through a ninja turtles pizza book and a bob's burger's burger book."
+  },
+  "interest22": {
+    "title": "weightlifting",
+    "interestUrl": "",
+    "description": "i'm primarily a 5/3/1 kinda guy, but i do like to pepper in some olympic lifting and crossfit odds and ends."
+  },
+  "interest23": {
+    "title": "video games",
+    "interestUrl": "",
+    "description": "fallout/skyrim style is the top for me, next is turn-based tactical, then after that i can throw down on some first person shooters or puzzle kinda games."
+  },
+  "interest24": {
+    "title": "longboarding",
+    "interestUrl": "",
+    "description": "i learned to longboard at 29, so all i do is carve and cruise."
+  },
+  "interest25": {
+    "title": "dogs",
+    "interestUrl": "",
+    "description": "i've got a granny-dog bichon and a sweet golden-doodle.  curly dogs for life."
+  },
+  "interest26": {
+    "title": "junk food",
+    "interestUrl": "",
+    "description": "pizzas, burgers, hot dogs, donuts... i love them and have tattoos of all of them."
+  },
+  "interest27": {
+    "title": "star wars",
+    "interestUrl": "",
+    "description": "if you want a conversation starter with me, this is the place to begin!"
+  },
+  "interest28": {
+    "title": "harry potter",
+    "interestUrl": "",
+    "description": "i'm a gryffindor with a deathmark tattoo... i'm really working to put some respeck on our name after peter pettigrew.  nuff' said."
+  },
+  "interest29": {
+    "title": "lord of the rings",
+    "interestUrl": "",
+    "description": "i do a lord of the rings extended edition movie marathon every year, to include all 7 hobbit meals.  i can make a mean potato leek soup."
+  },
+  "interest30": {
+    "title": "marvel universe",
+    "interestUrl": "",
+    "description": "i just need a good Silver Surfer origin movie and i'll be a happy man."
+  },
+  "interest31": {
+    "title": "board games",
+    "interestUrl": "",
+    "description": "i absolutely love co-op board games.  i'm always down for a good board game night."
+  },
+  "interest312": {
+    "title": "hiking",
+    "interestUrl": "",
+    "description": "i go on a few backcountry hiking trips every summer.  i've even done part of the Appalachian trail."
+  }
+}
