@@ -12,7 +12,7 @@
 		"title": "Catch of the Day",
 		"subtitle": "Seafood App build with React",
 		"description": "A seafood store app where a user can add, edit, and delete orders from a seafood restaurant.",
-		"demoUrl": "",
+		"demoUrl": "https://fishstore-bdf56.firebaseapp.com",
 		"gitUrl": "https://github.com/bobbybaxter/fishstore",
 		"imageUrl": "",
 		"shouldPrint": true
