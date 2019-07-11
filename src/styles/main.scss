@@ -112,22 +112,6 @@ h1.name {
 	// display: inline-block;
 }
 
-.interests-section {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.interests {
-	vertical-align: top;
-	background-color: #D9E7F8;
-	color: #4A90E2;
-	font-weight: 600;
-	margin: 5px 10px;
-	border-radius: 5px;
-	display: inline-block;
-	padding: 15px 25px;
-}
-
 .under-title {
 	display: block;
 	font-size: 24px;
@@ -164,6 +148,12 @@ span.under-title {
 	border-radius: 100%;
 	background: #eee no-repeat;
 	background-size: cover;
+}
+
+.tech-icon {
+	width: 40px;
+	height: auto;
+	padding: 3px;
 }
 
 /*hero ends*/
@@ -220,9 +210,23 @@ span.under-title {
 	line-height: 22px;
 }
 
-/*skill and intrests ends*/
+.interests-section {
+	margin-left: 10px;
+	margin-right: 10px;
+}
 
-/* Achievements */
+.interests {
+	vertical-align: top;
+	background-color: #D9E7F8;
+	color: #4A90E2;
+	font-weight: 600;
+	margin: 5px 10px;
+	border-radius: 5px;
+	display: inline-block;
+	padding: 15px 25px;
+}
+
+/*skill and interests ends*/
 
 
 .cards {
@@ -334,6 +338,20 @@ ol::after {
   	border-radius: 3px;
 }
 
+.main-area {
+	display: flex;
+	flex-direction: row;
+
+	.main-column {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+
+.technologies {
+	justify-content: space-around;
+}
+
 /* Media queries*/
 
 @media(max-width: 1024px){
@@ -343,6 +361,15 @@ ol::after {
 	}
 	.cards {
 		margin-top: 250px;
+	}
+	.main-area {
+		display: flex;
+		flex-direction: row;
+
+		.main-column {
+			flex: 0 0 50%;
+			max-width: 50%;
+		}
 	}
 }
 
@@ -357,7 +384,7 @@ ol::after {
 
 	.card {
 		padding: 15px;
-		text-align: left;
+		// text-align: left;
 	}
 	.card h2 {
 		font-size: 30px;
@@ -366,7 +393,7 @@ ol::after {
 		width: 100%;
 		height: auto;
 		margin: 10px 0;
-		float: left;
+		// float: left;
 	}
 
 	.timeline{
@@ -381,7 +408,7 @@ ol::after {
 }
 
 
-@media(max-width: 425px) {
+@media(max-width: 641px) {
 	h1.name {
 		font-size: 40px;
 	}
@@ -390,7 +417,7 @@ ol::after {
 		width: 100%;
 		height: auto;
 		margin: 10px 0;
-		float: left;
+		// float: left;
 	}
 
 	.timeline{
@@ -406,18 +433,39 @@ ol::after {
 	}
 
 	.lead {
-		margin-top: 15px;
-		font-size: 20px;
-		line-height: 28px;
+		font-size: 30px;
+		margin-top: 30px;
+		line-height: 35px;
 	}
+
 	.container {
 		margin: 0px;
-		padding: 0 15px;
+		padding: 15px;
 	}
+
 	footer {
 		margin-top: 2050px;
 	}
+
+	.main-area {
+		display: flex;
+		flex-direction: column;
+
+		.main-column {
+			flex: 0 0 100%;
+			max-width: 100%;
+		}
 	}
+
+	.exp-top {
+		padding-top: 1.5rem !important;
+		border-top: 1px solid #dee2e6 !important;
+	}
+
+	.technologies {
+		justify-content: center;
+	}
+}
 
 	// ul.timeline {
   //   list-style-type: none;
