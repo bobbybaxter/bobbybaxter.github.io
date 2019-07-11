@@ -13,7 +13,7 @@
 
 				<div class="col-6 p-0 d-flex flex-column justify-content-center">
 					<h1 class="name"><strong>Bob</strong> Baxter</h1>
-					<span class="under-title">Full Stack Software Developer</span>
+					<span class="under-title">Software Developer</span>
 					<div class="under-title d-flex flex-row">
 						<a href="https://github.com/bobbybaxter" class="fab fa-github fa-fw"></a>
 						<a href="https://www.linkedin.com/in/bob-e-baxter/" class="fab fa-linkedin fa-fw"></a>
@@ -33,16 +33,38 @@
 				<br><br>
 				I’ve always developed tools at work to automate tasks, collect data, and increase my productivity. I finally started connecting the dots when I realized planning and building these tools satisfied me more than the work itself. Thus, my journey as a developer began.</h2>
 		</div>
+
+		<h2 class="section-title border-top mt-4 pt-4">Technologies</h2>
+		<div class="technologies d-flex flex-row flex-wrap pb-4 border-bottom">
+			<img class="tech-icon" src="../src/assets/icons/bootstrap.svg" alt="bootstrap" data-toggle="tooltip" title="i use the bootstrap framework to style my apps, and i'm constantly finding new classes to speed up my styling work.">
+			<!-- <img class="tech-icon" src="../src/assets/icons/c-sharp.svg" alt="c-sharp" data-toggle="tooltip" title="${interest.description}"> -->
+			<img class="tech-icon" src="../src/assets/icons/css3.svg" alt="css3" data-toggle="tooltip" title="when styling frameworks don't cut it, i like to get down and dirty with some vanilla CSS.">
+			<!-- <img class="tech-icon" src="../src/assets/icons/dot-net.svg" alt="dot-net" data-toggle="tooltip" title="${interest.description}"> -->
+			<img class="tech-icon" src="../src/assets/icons/firebase.svg" alt="firebase" data-toggle="tooltip" title="i use firebase as a quick database solution for my apps.">
+			<img class="tech-icon" src="../src/assets/icons/git.svg" alt="git" data-toggle="tooltip" title="i use git for version control... it's like having a safety net for an entire project.">
+			<a href="https://github.com/bobbybaxter"><img class="tech-icon" src="../src/assets/icons/github.svg" alt="github" data-toggle="tooltip" title="click to see all of my development work on Github!"></a>
+			<img class="tech-icon" src="../src/assets/icons/html5.svg" alt="html5" data-toggle="tooltip" title="where would i be without HTML?">
+			<img class="tech-icon" src="../src/assets/icons/illustrator.svg" alt="illustrator" data-toggle="tooltip" title="ok, i'll admit it... i've used Illustrator since the Myspace days.">
+			<img class="tech-icon" src="../src/assets/icons/javascript.svg" alt="javascript" data-toggle="tooltip" title="i'm a forever student of javascript.  check out my projects on github to see how far i've come!">
+			<img class="tech-icon" src="../src/assets/icons/jquery.svg" alt="jquery" data-toggle="tooltip" title="i enjoy using jQuery when i need something done quick and easy">
+			<img class="tech-icon" src="../src/assets/icons/npm.svg" alt="npm" data-toggle="tooltip" title="npm install pizza">
+			<img class="tech-icon" src="../src/assets/icons/photoshop.svg" alt="photoshop" data-toggle="tooltip" title="ok, i'll admit it... i've used Photoshop since the Myspace days.">
+			<img class="tech-icon" src="../src/assets/icons/react.svg" alt="react" data-toggle="tooltip" title="React.js is such a blessing.  bye, bye to manually manipulating the DOM.">
+			<img class="tech-icon" src="../src/assets/icons/sass.svg" alt="sass" data-toggle="tooltip" title="sass/scss is so freakin' sweet.  mixins and nesting for the win! <3">
+			<!-- <img class="tech-icon" src="../src/assets/icons/sql_server.svg" alt="sql_server" data-toggle="tooltip" title="${interest.description}"> -->
+			<img class="tech-icon" src="../src/assets/icons/vs-code.svg" alt="vs-code" data-toggle="tooltip" title="VS Code: my choice for an IDE.">
+			<img class="tech-icon" src="../src/assets/icons/webpack.svg" alt="webpack" data-toggle="tooltip" title="i use webpack as a task runner and bundler in my development work.">
+		</div>
   </div>
 
-	<div class="d-flex flex-row container">
+	<div class="main-area container">
 
 		<!-- TOP LEFT COLUMN - Projects -->
-		<div class="col-6 p-0">
+		<div class="main-column p-0">
     	<div id="projects"></div>
 
 			<!-- LEFT COLUMN - Education -->
-			<h2 class="section-title border-top mt-4 pt-4">Education</h2>
+			<h2 class="section-title edu-top border-top mt-4 pt-4">Education</h2>
 
 			<div class="list-card">
 				<span class="exp">Nashville Software School</span>
@@ -95,10 +117,11 @@
     </div>
 		
     <!-- TOP RIGHT COLUMN - Experience Section -->
-    <div class="column col-6 p-0">
+    <!-- <div class="column col-6 p-0"> -->
+    <div class="main-column col-6 p-0">
       <div class="">
         <div class="d-flex flex-column">
-          <h2 class="section-title">Experience</h2>
+          <h2 class="section-title exp-top">Experience</h2>
           <ul class="timeline d-flex flex-column">
 
 						<!-- Experience Bullet 1 -->
@@ -117,8 +140,8 @@
                   <li class="exp-li">Project management/tracking with Github Projects</li>
                   <li class="exp-li">Built browser-based single page applications using HTML, CSS, Javascript, jQuery, and React</li>
                   <li class="exp-li">Accessing and exposing data using RESTful APIs</li>
-                  <li class="exp-li">Database management using MySQL and Firebase</li>
-                  <li class="exp-li">Responsively designed applications using Bootstrap</li>
+                  <li class="exp-li">Database management using Firebase</li>
+                  <li class="exp-li">Responsively design applications using Bootstrap</li>
                 </ul> 
 							</div>
 						</li>
@@ -315,8 +338,10 @@
   </div>
 
 	<!-- Interests -->
-	<h2 class="section-title text-center border-top pt-3">Interests</h2>
-	<div id="interests" class="d-flex flex-row flex-wrap interests-section justify-content-center"></div>
+	<div class="container">
+		<h2 class="section-title text-center border-top pt-3">Interests</h2>
+		<div id="interests" class="d-flex flex-row flex-wrap interests-section justify-content-center"></div>
+	</div>
 
 	<footer class="container">
 		<!-- <span style="font-size: 16px; margin-top: ">Coded by <a href="https://newtodesign.com/">New to design </a> Designed by <a href="https://dribbble.com/shots/4342703-Minimal-resume-freebie-for-junior-self-taught-people">Nicolas Meuzard</a></span> -->

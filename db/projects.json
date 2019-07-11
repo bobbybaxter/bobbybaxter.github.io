@@ -9,6 +9,15 @@
 		"shouldPrint": false
 	},
 	"project2": {
+		"title": "Catch of the Day",
+		"subtitle": "Seafood App build with React",
+		"description": "A seafood store app where a user can add, edit, and delete orders from a seafood restaurant.",
+		"demoUrl": "",
+		"gitUrl": "https://github.com/bobbybaxter/fishstore",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
+	"project3": {
 		"title": "Cashew Outside",
 		"subtitle": "Firebase CRUD Group Project",
 		"description": "A dashboard that a user can use to keep track of news articles, messages, events, and a diary.",
@@ -17,7 +26,7 @@
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project3": {
+	"project4": {
 		"title": "Arnold Flix",
 		"subtitle": "Firebase CRUD Project",
 		"description": "A page that allows users to keep track of all of their favorite Arnold Schwarzenegger movies. <br><br> Features include adding, editing, deleting, rating, and adding to a Watchlist.",
@@ -26,7 +35,7 @@
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project4": {
+	"project5": {
 		"title": "Fling's Landing",
 		"subtitle": "Group Messaging App Project",
 		"description": "A Game of Thrones themed messaging app.",
