@@ -11524,20 +11524,6 @@ h1.name {
   font-size: 70px;
   font-weight: 300; }
 
-.interests-section {
-  margin-left: 10px;
-  margin-right: 10px; }
-
-.interests {
-  vertical-align: top;
-  background-color: #D9E7F8;
-  color: #4A90E2;
-  font-weight: 600;
-  margin: 5px 10px;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 15px 25px; }
-
 .under-title {
   display: block;
   font-size: 24px;
@@ -11568,6 +11554,11 @@ span.under-title {
   border-radius: 100%;
   background: #eee no-repeat;
   background-size: cover; }
+
+.tech-icon {
+  width: 40px;
+  height: auto;
+  padding: 3px; }
 
 /*hero ends*/
 /*skills & interests*/
@@ -11607,8 +11598,21 @@ span.under-title {
   color: #81899C;
   line-height: 22px; }
 
-/*skill and intrests ends*/
-/* Achievements */
+.interests-section {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.interests {
+  vertical-align: top;
+  background-color: #D9E7F8;
+  color: #4A90E2;
+  font-weight: 600;
+  margin: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px 25px; }
+
+/*skill and interests ends*/
 .cards {
   max-width: 1120px;
   display: block;
@@ -11690,13 +11694,29 @@ ol::after {
   border-left: 20px solid #31708F;
   border-radius: 3px; }
 
+.main-area {
+  display: flex;
+  flex-direction: row; }
+  .main-area .main-column {
+    flex: 0 0 50%;
+    max-width: 50%; }
+
+.technologies {
+  justify-content: space-around; }
+
 /* Media queries*/
 @media (max-width: 1024px) {
   .container {
     padding: 15px;
     margin: 0px auto; }
   .cards {
-    margin-top: 250px; } }
+    margin-top: 250px; }
+  .main-area {
+    display: flex;
+    flex-direction: row; }
+    .main-area .main-column {
+      flex: 0 0 50%;
+      max-width: 50%; } }
 
 @media (max-width: 768px) {
   .container {
@@ -11705,27 +11725,24 @@ ol::after {
   .cards {
     margin-top: 320px; }
   .card {
-    padding: 15px;
-    text-align: left; }
+    padding: 15px; }
   .card h2 {
     font-size: 30px; }
   .card, .sections {
     width: 100%;
     height: auto;
-    margin: 10px 0;
-    float: left; }
+    margin: 10px 0; }
   .timeline {
     border: none;
     background-color: rgba(0, 0, 0, 0); } }
 
-@media (max-width: 425px) {
+@media (max-width: 641px) {
   h1.name {
     font-size: 40px; }
   .card, .sections {
     width: 100%;
     height: auto;
-    margin: 10px 0;
-    float: left; }
+    margin: 10px 0; }
   .timeline {
     display: none; }
   .job-title {
@@ -11735,14 +11752,25 @@ ol::after {
     right: 20px;
     padding: 10px; }
   .lead {
-    margin-top: 15px;
-    font-size: 20px;
-    line-height: 28px; }
+    font-size: 30px;
+    margin-top: 30px;
+    line-height: 35px; }
   .container {
     margin: 0px;
-    padding: 0 15px; }
+    padding: 15px; }
   footer {
-    margin-top: 2050px; } }
+    margin-top: 2050px; }
+  .main-area {
+    display: flex;
+    flex-direction: column; }
+    .main-area .main-column {
+      flex: 0 0 100%;
+      max-width: 100%; }
+  .exp-top {
+    padding-top: 1.5rem !important;
+    border-top: 1px solid #dee2e6 !important; }
+  .technologies {
+    justify-content: center; } }
 
 /* Timeline */
 .timeline p {
