@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader",
-    "deploy": "npm run build && firebase deploy"
+    "deploy": "npm run build && firebase deploy",
+    "deploy-gh-pages": "npm run build && gh-pages -d build"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/bobbybaxter/personal-bio-site/issues"
   },
-  "homepage": "https://github.com/bobbybaxter/personal-bio-site#readme",
+  "homepage":"https://bobbybaxter.github.io/",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
