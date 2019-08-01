@@ -1,47 +1,56 @@
 {
 	"project1": {
-		"title": "SWGOH Counters List",
-		"subtitle": "Front-End Capstone",
-		"description": "An iOS game companion built with React, utilizing Firebase for database CRUD implementation.",
-		"demoUrl": "",
-		"gitUrl": "",
+		"title": "SWGOH Squad Builder",
+		"subtitle": "NSS Front-End Capstone",
+		"description": "A squad planning and management app for the mobile game Star Wars: Galaxy of Heroes, built with React and utilizing Firebase for database CRUD implementation.",
+		"demoUrl": "https://swgoh-squad-builder.firebaseapp.com/",
+		"gitUrl": "https://github.com/bobbybaxter/swgoh-squad-builder",
 		"imageUrl": "",
-		"shouldPrint": false
+		"shouldPrint": true
 	},
 	"project2": {
+		"title": "SWGOH Counters List",
+		"subtitle": "Mobile game companion app built wtih React.js",
+		"description": "A companion app for the mobile game Star Wars: Galaxy of Heroes, which provides PvP team counters using React.js as a front-end framework and Google Sheets as a back-end.",
+		"demoUrl": "https://bobbybaxter.github.io/swgoh-counters",
+		"gitUrl": "https://github.com/bobbybaxter/swgoh-counters",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
+	"project3": {
 		"title": "Catch of the Day",
-		"subtitle": "Seafood App build with React",
+		"subtitle": "Seafood app build with React.js",
 		"description": "A seafood store app where a user can add, edit, and delete orders from a seafood restaurant.",
 		"demoUrl": "https://fishstore-bdf56.firebaseapp.com",
 		"gitUrl": "https://github.com/bobbybaxter/fishstore",
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project3": {
+	"project4": {
 		"title": "Cashew Outside",
-		"subtitle": "Firebase CRUD Group Project",
+		"subtitle": "Group Project using Firebase for CRUD",
 		"description": "A dashboard that a user can use to keep track of news articles, messages, events, and a diary.",
 		"demoUrl": "https://nutshell-cashew.firebaseapp.com/",
 		"gitUrl": "https://github.com/bobbybaxter/nutshell-cashew",
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project4": {
+	"project5": {
 		"title": "Arnold Flix",
-		"subtitle": "Firebase CRUD Project",
+		"subtitle": "Movie app using Firebase for CRUD",
 		"description": "A page that allows users to keep track of all of their favorite Arnold Schwarzenegger movies. <br><br> Features include adding, editing, deleting, rating, and adding to a Watchlist.",
 		"demoUrl": "https://movie-history-134c2.firebaseapp.com/",
 		"gitUrl": "https://github.com/bobbybaxter/movie-history",
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project5": {
+	"project6": {
 		"title": "Fling's Landing",
-		"subtitle": "Group Messaging App Project",
+		"subtitle": "Group messaging app project",
 		"description": "A Game of Thrones themed messaging app.",
 		"demoUrl": "https://flings-landing.firebaseapp.com/",
 		"gitUrl": "https://github.com/bobbybaxter/chatty-baratheon",
 		"imageUrl": "",
-		"shouldPrint": true
+		"shouldPrint": false
 	}
 }
