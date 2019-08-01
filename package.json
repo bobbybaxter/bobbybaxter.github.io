@@ -1,23 +1,22 @@
 {
-  "name": "personal-bio-site",
+  "name": "bobbybaxter.github.io",
   "version": "1.0.0",
   "description": "My personal bio site",
   "main": "src/javascripts/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader",
-    "deploy": "npm run build && firebase deploy",
-    "deploy-gh-pages": "npm run build && gh-pages -b master -d build"
+    "deploy": "gh-pages co master -d build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bobbybaxter/personal-bio-site.git"
+    "url": "git+https://github.com/bobbybaxter/bobbybaxter.github.io.git"
   },
   "keywords": [],
   "author": "Bob Baxter",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bobbybaxter/personal-bio-site/issues"
+    "url": "https://github.com/bobbybaxter/bobbybaxter.github.io/issues"
   },
   "homepage":"https://bobbybaxter.github.io/",
   "devDependencies": {
