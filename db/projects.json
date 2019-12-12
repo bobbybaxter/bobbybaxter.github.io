@@ -1,23 +1,32 @@
 {
 	"project1": {
-		"title": "SWGOH Squad Builder",
+		"title": "SWGOH Counters",
 		"subtitle": "NSS Front-End Capstone",
-		"description": "A squad planning and management app for the mobile game Star Wars: Galaxy of Heroes, built with React and utilizing Firebase for database CRUD implementation.",
-		"demoUrl": "https://swgoh-squad-builder.firebaseapp.com/",
-		"gitUrl": "https://github.com/bobbybaxter/swgoh-squad-builder",
-		"imageUrl": "",
-		"shouldPrint": true
-	},
-	"project2": {
-		"title": "SWGOH Counters List",
-		"subtitle": "Mobile game companion app built wtih React.js",
-		"description": "A companion app for the mobile game Star Wars: Galaxy of Heroes, which provides PvP team counters using React.js as a front-end framework and Google Sheets as a back-end.",
+		"description": "A Companion app for the mobile game Star Wars: Galaxy of Heroes, SWGOH Counters, built with React.js and using the Google Sheets API as a server.  This application is used as a reference guide for players to look up which teams are best to use against teams they are battling.  This app has an average of over 35,000 users and 340,000 pageviews per month.",
 		"demoUrl": "https://bobbybaxter.github.io/swgoh-counters",
 		"gitUrl": "https://github.com/bobbybaxter/swgoh-counters",
 		"imageUrl": "",
 		"shouldPrint": true
 	},
+	"project2": {
+		"title": "SWGOH Squad Builder",
+		"subtitle": "NSS Front-End Capstone",
+		"description": "A squad planning and management app built with React.js and utilizing Firebase for database CRUD implementation.",
+		"demoUrl": "https://swgoh-squad-builder.firebaseapp.com/",
+		"gitUrl": "https://github.com/bobbybaxter/swgoh-squad-builder",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
 	"project3": {
+		"title": "Venns Against Humanity",
+		"subtitle": "Venn Diagram app built with React.js and D3.js",
+		"description": "An app built with React.js and D3.js that generates random Cards Against Humanity cards and places them in a Venn diagram.",
+		"demoUrl": "https://bobbybaxter.github.io/venns-against-humanity/",
+		"gitUrl": "https://github.com/bobbybaxter/venns-against-humanity",
+		"imageUrl": "",
+		"shouldPrint": true
+	},
+	"project4": {
 		"title": "Catch of the Day",
 		"subtitle": "Seafood app build with React.js",
 		"description": "A seafood store app where a user can add, edit, and delete orders from a seafood restaurant.",
@@ -26,7 +35,7 @@
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project4": {
+	"project5": {
 		"title": "Cashew Outside",
 		"subtitle": "Group Project using Firebase for CRUD",
 		"description": "A dashboard that a user can use to keep track of news articles, messages, events, and a diary.",
@@ -35,16 +44,16 @@
 		"imageUrl": "",
 		"shouldPrint": true
 	},
-	"project5": {
+	"project6": {
 		"title": "Arnold Flix",
 		"subtitle": "Movie app using Firebase for CRUD",
 		"description": "A page that allows users to keep track of all of their favorite Arnold Schwarzenegger movies. <br><br> Features include adding, editing, deleting, rating, and adding to a Watchlist.",
 		"demoUrl": "https://movie-history-134c2.firebaseapp.com/",
 		"gitUrl": "https://github.com/bobbybaxter/movie-history",
 		"imageUrl": "",
-		"shouldPrint": true
+		"shouldPrint": false
 	},
-	"project6": {
+	"project7": {
 		"title": "Fling's Landing",
 		"subtitle": "Group messaging app project",
 		"description": "A Game of Thrones themed messaging app.",
