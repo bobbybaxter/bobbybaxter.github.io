@@ -2,7 +2,8 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 @import '../javascripts/components/interests/interests.scss';
 
-$bg-img: url('../assets/images/draft_headshot.jpg');
+$bg-img: url('../assets/images/BobBaxter.jpg');
+$bg-img2: url('../assets/images/BobBaxter_Fun.jpg');
 
 /* https://newtodesing.com/ 
    v2.0 | 20110126
@@ -139,7 +140,14 @@ span.under-title {
 }
 
 #headshot-img {
-	background-image: $bg-img;
+  background-image: $bg-img;
+  background-position: 0px -25px;
+}
+
+
+#headshot-img:hover {
+  background-image: $bg-img2;
+  background-position: 0px -25px;
 }
 
 .circle-crop {

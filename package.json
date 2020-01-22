@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/bobbybaxter/bobbybaxter.github.io/issues"
   },
-  "homepage":"https://bobbybaxter.github.io/",
+  "homepage": "https://bobbybaxter.github.io/",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",

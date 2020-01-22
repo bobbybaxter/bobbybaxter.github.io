@@ -2,7 +2,7 @@
 	"project1": {
 		"title": "SWGOH Counters",
 		"subtitle": "NSS Front-End Capstone",
-		"description": "A Companion app for the mobile game Star Wars: Galaxy of Heroes, SWGOH Counters, built with React.js and using the Google Sheets API as a server.  This application is used as a reference guide for players to look up which teams are best to use against teams they are battling.  This app has an average of over 35,000 users and 340,000 pageviews per month.",
+		"description": "A Companion app for the mobile game Star Wars: Galaxy of Heroes, SWGOH Counters, built with React.js and using the Google Sheets API as a server.  This application is used as a reference guide for players to look up which teams are best to use against teams they are battling.  This app has an average of over 45,000 users and 450,000 pageviews per month.",
 		"demoUrl": "https://bobbybaxter.github.io/swgoh-counters",
 		"gitUrl": "https://github.com/bobbybaxter/swgoh-counters",
 		"imageUrl": "",
