@@ -1,0 +1,54 @@
+h1.name {
+  /* font-size: 70px; */
+  font-weight: 300;
+}
+
+.under-title {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  color: #81899c;
+  margin-top: 10px;
+}
+
+span.under-title {
+  padding-left: 3px;
+}
+
+.lead {
+  /* font-size: 44px; */
+  font-weight: 300;
+  margin-top: 60px;
+  line-height: 55px;
+}
+
+.under-lead {
+  /* font-size: 18px; */
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.solo-lead {
+  /* font-size: 24px; */
+  font-weight: 300;
+  margin-top: 60px;
+  line-height: 30px;
+}
+
+#headshot-img {
+  background-image: var(--bg-img);
+  background-position: 0px -25px;
+}
+
+.circle-crop {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: #eee no-repeat;
+  background-size: cover;
+}
+
+.tech-icon {
+  width: 40px;
+  padding: 3px;
+}
