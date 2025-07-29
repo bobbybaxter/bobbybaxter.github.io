@@ -7,7 +7,7 @@
 
 /* Keep your design tokens as CSS variables for existing styles */
 :root {
-  --bg-img: url('./assets/BobBaxter_Fun.jpg');
+  --bg-img: url('/BobBaxter_Fun.jpg');
   --radius: 0.625rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.129 0.042 264.695);

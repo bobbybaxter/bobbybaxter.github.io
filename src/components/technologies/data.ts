@@ -8,182 +8,182 @@ export interface Technology {
 export const technologies: Technology[] = [
   {
     title: "agile",
-    src: "../src/assets/icons/agile.svg",
+    src: "/icons/agile.svg",
     description: "Agile"
   },
   {
     title: "aws",
-    src: "../src/assets/icons/aws.svg",
+    src: "/icons/aws.svg",
     description: "AWS"
   },
   {
     title: "aws_dynamodb",
-    src: "../src/assets/icons/aws_dynamodb.svg",
+    src: "/icons/aws_dynamodb.svg",
     description: "AWS DynamoDB"
   },
   {
     title: "aws_s3",
-    src: "../src/assets/icons/aws_s3.svg",
+    src: "/icons/aws_s3.svg",
     description: "AWS S3"
   },
   {
     title: "clickup",
-    src: "../src/assets/icons/clickup.svg",
+    src: "/icons/clickup.svg",
     description: "ClickUp"
   },
   {
     title: "css",
-    src: "../src/assets/icons/css.svg",
+    src: "/icons/css.svg",
     description: "CSS"
   },
   {
     title: "docker",
-    src: "../src/assets/icons/docker.svg",
+    src: "/icons/docker.svg",
     description: "Docker"
   },
   {
     title: "express",
-    src: "../src/assets/icons/express.svg",
+    src: "/icons/express.svg",
     description: "Express"
   },
   {
     title: "fastify",
-    src: "../src/assets/icons/fastify.svg",
+    src: "/icons/fastify.svg",
     description: "Fastify"
   },
   {
     title: "firebase",
-    src: "../src/assets/icons/firebase.svg",
+    src: "/icons/firebase.svg",
     description: "Firebase"
   },
   {
     title: "ftp",
-    src: "../src/assets/icons/ftp.svg",
+    src: "/icons/ftp.svg",
     description: "FTP"
   },
   {
     title: "google_cloud_bigquery",
-    src: "../src/assets/icons/google_cloud_bigquery.svg",
+    src: "/icons/google_cloud_bigquery.svg",
     description: "Google Cloud BigQuery"
   },
   {
     title: "google_cloud_platform",
-    src: "../src/assets/icons/google_cloud_platform.svg",
+    src: "/icons/google_cloud_platform.svg",
     description: "Google Cloud Platform"
   },
   {
     title: "google_cloud_storage",
-    src: "../src/assets/icons/google_cloud_storage.svg",
+    src: "/icons/google_cloud_storage.svg",
     description: "Google Cloud Storage"
   },
   {
     title: "graphql",
-    src: "../src/assets/icons/graphql.svg",
+    src: "/icons/graphql.svg",
     description: "GraphQL"
   },
   {
     title: "html5",
-    src: "../src/assets/icons/html5.svg",
+    src: "/icons/html5.svg",
     description: "HTML5"
   },
   {
     title: "javascript",
-    src: "../src/assets/icons/javascript.svg",
+    src: "/icons/javascript.svg",
     description: "JavaScript"
   },
   {
     title: "jest",
-    src: "../src/assets/icons/jest.svg",
+    src: "/icons/jest.svg",
     description: "Jest"
   },
   {
     title: "jira",
-    src: "../src/assets/icons/jira.svg",
+    src: "/icons/jira.svg",
     description: "Jira"
   },
   {
     title: "jquery",
-    src: "../src/assets/icons/jquery.svg",
+    src: "/icons/jquery.svg",
     description: "jQuery"
   },
   {
     title: "kubernetes",
-    src: "../src/assets/icons/kubernetes.svg",
+    src: "/icons/kubernetes.svg",
     description: "Kubernetes"
   },
   {
     title: "mocha",
-    src: "../src/assets/icons/mocha.svg",
+    src: "/icons/mocha.svg",
     description: "Mocha"
   },
   {
     title: "mysql",
-    src: "../src/assets/icons/mysql.svg",
+    src: "/icons/mysql.svg",
     description: "MySQL"
   },
   {
     title: "nextjs",
-    src: "../src/assets/icons/nextjs.svg",
+    src: "/icons/nextjs.svg",
     description: "Next.js"
   },
   {
     title: "nodejs",
-    src: "../src/assets/icons/nodejs.svg",
+    src: "/icons/nodejs.svg",
     description: "Node.js"
   },
   {
     title: "npm",
-    src: "../src/assets/icons/npm.svg",
+    src: "/icons/npm.svg",
     description: "npm"
   },
   {
     title: "postgresql",
-    src: "../src/assets/icons/postgresql.svg",
+    src: "/icons/postgresql.svg",
     description: "PostgreSQL"
   },
   {
     title: "react_testing_library",
-    src: "../src/assets/icons/react_testing_library.svg",
+    src: "/icons/react_testing_library.svg",
     description: "React Testing Library"
   },
   {
     title: "react",
-    src: "../src/assets/icons/react.svg",
+    src: "/icons/react.svg",
     description: "React"
   },
   {
     title: "sass",
-    src: "../src/assets/icons/sass.svg",
+    src: "/icons/sass.svg",
     description: "Sass"
   },
   {
     title: "sftp",
-    src: "../src/assets/icons/sftp.svg",
+    src: "/icons/sftp.svg",
     description: "SFTP"
   },
   {
     title: "sql_server",
-    src: "../src/assets/icons/sql_server.svg",
+    src: "/icons/sql_server.svg",
     description: "SQL Server"
   },
   {
     title: "tailwind_css",
-    src: "../src/assets/icons/tailwind_css.svg",
+    src: "/icons/tailwind_css.svg",
     description: "Tailwind CSS"
   },
   {
     title: "typescript",
-    src: "../src/assets/icons/typescript.svg",
+    src: "/icons/typescript.svg",
     description: "TypeScript"
   },
   {
     title: "vitest",
-    src: "../src/assets/icons/vitest.svg",
+    src: "/icons/vitest.svg",
     description: "Vitest"
   },
   {
     title: "vs_code",
-    src: "../src/assets/icons/vs_code.svg",
+    src: "/icons/vs_code.svg",
     description: "VS Code"
   },
 ];
