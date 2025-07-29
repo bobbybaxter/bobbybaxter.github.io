@@ -1,50 +1,45 @@
 {
   "name": "bobbybaxter.github.io",
-  "version": "1.0.0",
-  "description": "My personal bio site",
-  "main": "src/javascripts/main.js",
-  "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "build": "webpack --mode production --module-bind js=babel-loader",
-    "deploy": "gh-pages co master -d build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bobbybaxter/bobbybaxter.github.io.git"
-  },
-  "keywords": [],
-  "author": "Bob Baxter",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bobbybaxter/bobbybaxter.github.io/issues"
-  },
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "homepage": "https://bobbybaxter.github.io/",
-  "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.0.0",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-loader": "^2.1.2",
-    "eslint-plugin-import": "^2.17.3",
-    "file-loader": "^4.0.0",
-    "gh-pages": "^2.0.1",
-    "html-loader": "^0.5.5",
-    "html-webpack-plugin": "^3.2.0",
-    "mini-css-extract-plugin": "^0.7.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.4",
-    "webpack-dev-server": "^3.7.1"
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.9.0",
-    "axios": "^0.19.0",
-    "bootstrap": "^4.3.1",
-    "firebase": "^6.2.2",
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0"
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "@radix-ui/react-accordion": "^1.2.11",
+    "@radix-ui/react-tooltip": "^1.2.7",
+    "@tailwindcss/vite": "^4.1.11",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "@vitejs/plugin-react-swc": "^3.10.2",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "gh-pages": "^6.3.0",
+    "globals": "^16.3.0",
+    "tw-animate-css": "^1.3.5",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.35.1",
+    "vite": "^7.0.4"
   }
 }

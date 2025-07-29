@@ -1,0 +1,18 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+	<title>docker-svgrepo-com</title>
+	<style>
+		.s0 { fill: #4a90e2 } 
+		.s1 { fill: #ffffff } 
+	</style>
+	<path fill-rule="evenodd" class="s0" d="m400 750c-193.6 0-350-156.4-350-350 0-193.6 156.4-350 350-350 193.6 0 350 156.4 350 350 0 193.6-156.4 350-350 350z"/>
+	<path class="s1" d="m450 175h-50v50h50z"/>
+	<path class="s1" d="m250 250h50v50h-50z"/>
+	<path class="s1" d="m150 423.5c4.3 72.6 47.5 176.5 200 176.5 170 0 245.8-125 262.5-187.5 20.8 0 67.5-12.5 87.5-62.5-12.5-12.5-62.5-12.5-87.5 0 0-20-12.5-62.5-37.5-75-16.7 16.7-42.5 60-12.5 100-12.5 25-45.8 25-62.5 25h-326.4c-13.3 0-24.3 10.3-23.6 23.5z"/>
+	<path class="s1" d="m225 325h-50v50h50z"/>
+	<path class="s1" d="m250 325h50v50h-50z"/>
+	<path class="s1" d="m375 325h-50v50h50z"/>
+	<path class="s1" d="m400 325h50v50h-50z"/>
+	<path class="s1" d="m525 325h-50v50h50z"/>
+	<path class="s1" d="m375 250h-50v50h50z"/>
+	<path class="s1" d="m400 250h50v50h-50z"/>
+</svg>
