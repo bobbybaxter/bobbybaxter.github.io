@@ -26,13 +26,13 @@ function Header() {
                 title="LinkedIn"
               ></a>
               <a
-                href="@mailto: bob.e.baxter@gmail.com"
+                href="mailto:bob.e.baxter@gmail.com"
                 className="far fa-envelope fa-fw"
                 data-toggle="tooltip"
                 title="Email"
               ></a>
               <a
-                href="/src/assets/Bob Baxter Resume 2025.pdf"
+                href="/Bob Baxter Resume 2025.pdf"
                 className="fas fa-file-pdf fa-fw"
                 data-toggle="tooltip"
                 title="Resume"
